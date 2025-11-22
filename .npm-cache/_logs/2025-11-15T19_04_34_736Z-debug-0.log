@@ -1,0 +1,885 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@9.5.1
+2 info using node@v18.16.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 0ms
+6 timing config:load:builtin Completed in 0ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/Users/anubalaji/Website/K3_Site/frontend/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 0ms
+11 timing config:load:file:/Users/anubalaji/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/usr/local/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 0ms
+16 timing config:load Completed in 3ms
+17 timing npm:load:configload Completed in 3ms
+18 timing npm:load:mkdirpcache Completed in 0ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm install react-router-dom axios
+21 verbose argv "install" "react-router-dom" "axios"
+22 timing npm:load:setTitle Completed in 1ms
+23 timing config:load:flatten Completed in 1ms
+24 timing npm:load:display Completed in 1ms
+25 verbose logfile logs-max:10 dir:/Users/anubalaji/Website/K3_Site/.npm-cache/_logs/2025-11-15T19_04_34_736Z-
+26 verbose logfile /Users/anubalaji/Website/K3_Site/.npm-cache/_logs/2025-11-15T19_04_34_736Z-debug-0.log
+27 timing npm:load:logFile Completed in 2ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 9ms
+31 timing arborist:ctor Completed in 0ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 51ms
+34 timing idealTree:userRequests Completed in 1ms
+35 silly idealTree buildDeps
+36 silly fetch manifest react-router-dom@*
+37 timing arborist:ctor Completed in 0ms
+38 http fetch GET 200 https://registry.npmjs.org/react-router-dom 214ms (cache miss)
+39 silly fetch manifest react@^19.2.0
+40 http fetch GET 200 https://registry.npmjs.org/react 192ms (cache miss)
+41 silly fetch manifest react-dom@^19.2.0
+42 http fetch GET 200 https://registry.npmjs.org/react-dom 342ms (cache miss)
+43 silly fetch manifest axios@*
+44 http fetch GET 200 https://registry.npmjs.org/axios 97ms (cache miss)
+45 silly placeDep ROOT axios@1.13.2 OK for: frontend@0.0.0 want: *
+46 silly placeDep ROOT react-router-dom@7.9.6 OK for: frontend@0.0.0 want: *
+47 silly fetch manifest follow-redirects@^1.15.6
+48 silly fetch manifest form-data@^4.0.4
+49 silly fetch manifest proxy-from-env@^1.1.0
+50 silly fetch manifest react-router@7.9.6
+51 http fetch GET 200 https://registry.npmjs.org/form-data 92ms (cache miss)
+52 http fetch GET 200 https://registry.npmjs.org/follow-redirects 98ms (cache miss)
+53 http fetch GET 200 https://registry.npmjs.org/proxy-from-env 103ms (cache miss)
+54 http fetch GET 200 https://registry.npmjs.org/react-router 149ms (cache miss)
+55 timing idealTree:#root Completed in 1049ms
+56 silly placeDep ROOT follow-redirects@1.15.11 OK for: axios@1.13.2 want: ^1.15.6
+57 silly placeDep ROOT form-data@4.0.4 OK for: axios@1.13.2 want: ^4.0.4
+58 silly placeDep ROOT proxy-from-env@1.1.0 OK for: axios@1.13.2 want: ^1.1.0
+59 silly fetch manifest hasown@^2.0.2
+60 silly fetch manifest asynckit@^0.4.0
+61 silly fetch manifest mime-types@^2.1.12
+62 silly fetch manifest combined-stream@^1.0.8
+63 silly fetch manifest es-set-tostringtag@^2.1.0
+64 http fetch GET 200 https://registry.npmjs.org/hasown 54ms (cache miss)
+65 http fetch GET 200 https://registry.npmjs.org/combined-stream 53ms (cache miss)
+66 http fetch GET 200 https://registry.npmjs.org/asynckit 63ms (cache miss)
+67 http fetch GET 200 https://registry.npmjs.org/es-set-tostringtag 85ms (cache miss)
+68 http fetch GET 200 https://registry.npmjs.org/mime-types 105ms (cache miss)
+69 timing idealTree:node_modules/axios Completed in 111ms
+70 timing idealTree:node_modules/follow-redirects Completed in 0ms
+71 silly placeDep ROOT asynckit@0.4.0 OK for: form-data@4.0.4 want: ^0.4.0
+72 silly placeDep ROOT combined-stream@1.0.8 OK for: form-data@4.0.4 want: ^1.0.8
+73 silly placeDep ROOT es-set-tostringtag@2.1.0 OK for: form-data@4.0.4 want: ^2.1.0
+74 silly placeDep ROOT hasown@2.0.2 OK for: form-data@4.0.4 want: ^2.0.2
+75 silly placeDep ROOT mime-types@2.1.35 OK for: form-data@4.0.4 want: ^2.1.12
+76 silly fetch manifest delayed-stream@~1.0.0
+77 silly fetch manifest es-errors@^1.3.0
+78 silly fetch manifest get-intrinsic@^1.2.6
+79 silly fetch manifest has-tostringtag@^1.0.2
+80 silly fetch manifest function-bind@^1.1.2
+81 silly fetch manifest mime-db@1.52.0
+82 http fetch GET 200 https://registry.npmjs.org/has-tostringtag 63ms (cache miss)
+83 http fetch GET 200 https://registry.npmjs.org/function-bind 63ms (cache miss)
+84 http fetch GET 200 https://registry.npmjs.org/get-intrinsic 69ms (cache miss)
+85 http fetch GET 200 https://registry.npmjs.org/delayed-stream 72ms (cache miss)
+86 http fetch GET 200 https://registry.npmjs.org/es-errors 86ms (cache miss)
+87 http fetch GET 200 https://registry.npmjs.org/mime-db 138ms (cache miss)
+88 timing idealTree:node_modules/form-data Completed in 144ms
+89 timing idealTree:node_modules/asynckit Completed in 0ms
+90 silly placeDep ROOT delayed-stream@1.0.0 OK for: combined-stream@1.0.8 want: ~1.0.0
+91 timing idealTree:node_modules/combined-stream Completed in 1ms
+92 timing idealTree:node_modules/delayed-stream Completed in 0ms
+93 silly placeDep ROOT es-errors@1.3.0 OK for: es-set-tostringtag@2.1.0 want: ^1.3.0
+94 silly placeDep ROOT get-intrinsic@1.3.0 OK for: es-set-tostringtag@2.1.0 want: ^1.2.6
+95 silly placeDep ROOT has-tostringtag@1.0.2 OK for: es-set-tostringtag@2.1.0 want: ^1.0.2
+96 silly fetch manifest gopd@^1.2.0
+97 silly fetch manifest get-proto@^1.0.1
+98 silly fetch manifest has-symbols@^1.1.0
+99 silly fetch manifest es-object-atoms@^1.1.1
+100 silly fetch manifest math-intrinsics@^1.1.0
+101 silly fetch manifest es-define-property@^1.0.1
+102 silly fetch manifest call-bind-apply-helpers@^1.0.2
+103 silly fetch manifest has-symbols@^1.0.3
+104 http fetch GET 200 https://registry.npmjs.org/get-proto 47ms (cache miss)
+105 http fetch GET 200 https://registry.npmjs.org/es-define-property 60ms (cache miss)
+106 http fetch GET 200 https://registry.npmjs.org/has-symbols 65ms (cache miss)
+107 http fetch GET 200 https://registry.npmjs.org/es-object-atoms 71ms (cache miss)
+108 http fetch GET 200 https://registry.npmjs.org/math-intrinsics 79ms (cache miss)
+109 http fetch GET 200 https://registry.npmjs.org/call-bind-apply-helpers 93ms (cache miss)
+110 http fetch GET 200 https://registry.npmjs.org/has-symbols 100ms (cache miss)
+111 http fetch GET 200 https://registry.npmjs.org/gopd 121ms (cache miss)
+112 timing idealTree:node_modules/es-set-tostringtag Completed in 124ms
+113 timing idealTree:node_modules/es-errors Completed in 0ms
+114 silly placeDep ROOT call-bind-apply-helpers@1.0.2 OK for: get-intrinsic@1.3.0 want: ^1.0.2
+115 silly placeDep ROOT es-define-property@1.0.1 OK for: get-intrinsic@1.3.0 want: ^1.0.1
+116 silly placeDep ROOT es-object-atoms@1.1.1 OK for: get-intrinsic@1.3.0 want: ^1.1.1
+117 silly placeDep ROOT function-bind@1.1.2 OK for: get-intrinsic@1.3.0 want: ^1.1.2
+118 silly placeDep ROOT get-proto@1.0.1 OK for: get-intrinsic@1.3.0 want: ^1.0.1
+119 silly placeDep ROOT gopd@1.2.0 OK for: get-intrinsic@1.3.0 want: ^1.2.0
+120 silly placeDep ROOT has-symbols@1.1.0 OK for: get-intrinsic@1.3.0 want: ^1.1.0
+121 silly placeDep ROOT math-intrinsics@1.1.0 OK for: get-intrinsic@1.3.0 want: ^1.1.0
+122 silly fetch manifest dunder-proto@^1.0.1
+123 http fetch GET 200 https://registry.npmjs.org/dunder-proto 61ms (cache miss)
+124 timing idealTree:node_modules/get-intrinsic Completed in 66ms
+125 timing idealTree:node_modules/call-bind-apply-helpers Completed in 0ms
+126 timing idealTree:node_modules/es-define-property Completed in 0ms
+127 timing idealTree:node_modules/es-object-atoms Completed in 0ms
+128 timing idealTree:node_modules/function-bind Completed in 0ms
+129 silly placeDep ROOT dunder-proto@1.0.1 OK for: get-proto@1.0.1 want: ^1.0.1
+130 timing idealTree:node_modules/get-proto Completed in 1ms
+131 timing idealTree:node_modules/dunder-proto Completed in 0ms
+132 timing idealTree:node_modules/gopd Completed in 0ms
+133 timing idealTree:node_modules/has-symbols Completed in 0ms
+134 timing idealTree:node_modules/has-tostringtag Completed in 0ms
+135 timing idealTree:node_modules/hasown Completed in 0ms
+136 timing idealTree:node_modules/math-intrinsics Completed in 0ms
+137 silly placeDep ROOT mime-db@1.52.0 OK for: mime-types@2.1.35 want: 1.52.0
+138 timing idealTree:node_modules/mime-types Completed in 1ms
+139 timing idealTree:node_modules/mime-db Completed in 0ms
+140 timing idealTree:node_modules/proxy-from-env Completed in 0ms
+141 silly fetch manifest react@>=18
+142 silly fetch manifest react-dom@>=18
+143 silly placeDep ROOT react-router@7.9.6 OK for: react-router-dom@7.9.6 want: 7.9.6
+144 silly fetch manifest cookie@^1.0.1
+145 silly fetch manifest set-cookie-parser@^2.6.0
+146 http fetch GET 200 https://registry.npmjs.org/set-cookie-parser 42ms (cache miss)
+147 http fetch GET 200 https://registry.npmjs.org/cookie 55ms (cache miss)
+148 timing idealTree:node_modules/react-router-dom Completed in 57ms
+149 silly placeDep ROOT cookie@1.0.2 OK for: react-router@7.9.6 want: ^1.0.1
+150 silly placeDep ROOT set-cookie-parser@2.7.2 OK for: react-router@7.9.6 want: ^2.6.0
+151 timing idealTree:node_modules/react-router Completed in 1ms
+152 timing idealTree:node_modules/cookie Completed in 0ms
+153 timing idealTree:node_modules/set-cookie-parser Completed in 0ms
+154 timing idealTree:buildDeps Completed in 1556ms
+155 timing idealTree:fixDepFlags Completed in 1ms
+156 warn EBADENGINE Unsupported engine {
+156 warn EBADENGINE   package: '@eslint/config-array@0.21.1',
+156 warn EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=21.1.0' },
+156 warn EBADENGINE   current: { node: 'v18.16.0', npm: '9.5.1' }
+156 warn EBADENGINE }
+157 warn EBADENGINE Unsupported engine {
+157 warn EBADENGINE   package: '@eslint/config-helpers@0.4.2',
+157 warn EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=21.1.0' },
+157 warn EBADENGINE   current: { node: 'v18.16.0', npm: '9.5.1' }
+157 warn EBADENGINE }
+158 warn EBADENGINE Unsupported engine {
+158 warn EBADENGINE   package: '@eslint/core@0.17.0',
+158 warn EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=21.1.0' },
+158 warn EBADENGINE   current: { node: 'v18.16.0', npm: '9.5.1' }
+158 warn EBADENGINE }
+159 warn EBADENGINE Unsupported engine {
+159 warn EBADENGINE   package: '@eslint/eslintrc@3.3.1',
+159 warn EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=21.1.0' },
+159 warn EBADENGINE   current: { node: 'v18.16.0', npm: '9.5.1' }
+159 warn EBADENGINE }
+160 warn EBADENGINE Unsupported engine {
+160 warn EBADENGINE   package: '@eslint/js@9.39.1',
+160 warn EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=21.1.0' },
+160 warn EBADENGINE   current: { node: 'v18.16.0', npm: '9.5.1' }
+160 warn EBADENGINE }
+161 warn EBADENGINE Unsupported engine {
+161 warn EBADENGINE   package: '@eslint/object-schema@2.1.7',
+161 warn EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=21.1.0' },
+161 warn EBADENGINE   current: { node: 'v18.16.0', npm: '9.5.1' }
+161 warn EBADENGINE }
+162 warn EBADENGINE Unsupported engine {
+162 warn EBADENGINE   package: '@eslint/plugin-kit@0.4.1',
+162 warn EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=21.1.0' },
+162 warn EBADENGINE   current: { node: 'v18.16.0', npm: '9.5.1' }
+162 warn EBADENGINE }
+163 warn EBADENGINE Unsupported engine {
+163 warn EBADENGINE   package: '@humanfs/core@0.19.1',
+163 warn EBADENGINE   required: { node: '>=18.18.0' },
+163 warn EBADENGINE   current: { node: 'v18.16.0', npm: '9.5.1' }
+163 warn EBADENGINE }
+164 warn EBADENGINE Unsupported engine {
+164 warn EBADENGINE   package: '@humanfs/node@0.16.7',
+164 warn EBADENGINE   required: { node: '>=18.18.0' },
+164 warn EBADENGINE   current: { node: 'v18.16.0', npm: '9.5.1' }
+164 warn EBADENGINE }
+165 warn EBADENGINE Unsupported engine {
+165 warn EBADENGINE   package: '@humanwhocodes/retry@0.4.3',
+165 warn EBADENGINE   required: { node: '>=18.18' },
+165 warn EBADENGINE   current: { node: 'v18.16.0', npm: '9.5.1' }
+165 warn EBADENGINE }
+166 warn EBADENGINE Unsupported engine {
+166 warn EBADENGINE   package: '@vitejs/plugin-react@5.1.1',
+166 warn EBADENGINE   required: { node: '^20.19.0 || >=22.12.0' },
+166 warn EBADENGINE   current: { node: 'v18.16.0', npm: '9.5.1' }
+166 warn EBADENGINE }
+167 warn EBADENGINE Unsupported engine {
+167 warn EBADENGINE   package: 'eslint@9.39.1',
+167 warn EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=21.1.0' },
+167 warn EBADENGINE   current: { node: 'v18.16.0', npm: '9.5.1' }
+167 warn EBADENGINE }
+168 warn EBADENGINE Unsupported engine {
+168 warn EBADENGINE   package: 'eslint-scope@8.4.0',
+168 warn EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=21.1.0' },
+168 warn EBADENGINE   current: { node: 'v18.16.0', npm: '9.5.1' }
+168 warn EBADENGINE }
+169 warn EBADENGINE Unsupported engine {
+169 warn EBADENGINE   package: 'eslint-visitor-keys@4.2.1',
+169 warn EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=21.1.0' },
+169 warn EBADENGINE   current: { node: 'v18.16.0', npm: '9.5.1' }
+169 warn EBADENGINE }
+170 warn EBADENGINE Unsupported engine {
+170 warn EBADENGINE   package: 'espree@10.4.0',
+170 warn EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=21.1.0' },
+170 warn EBADENGINE   current: { node: 'v18.16.0', npm: '9.5.1' }
+170 warn EBADENGINE }
+171 warn EBADENGINE Unsupported engine {
+171 warn EBADENGINE   package: 'vite@7.2.2',
+171 warn EBADENGINE   required: { node: '^20.19.0 || >=22.12.0' },
+171 warn EBADENGINE   current: { node: 'v18.16.0', npm: '9.5.1' }
+171 warn EBADENGINE }
+172 warn EBADENGINE Unsupported engine {
+172 warn EBADENGINE   package: 'react-router-dom@7.9.6',
+172 warn EBADENGINE   required: { node: '>=20.0.0' },
+172 warn EBADENGINE   current: { node: 'v18.16.0', npm: '9.5.1' }
+172 warn EBADENGINE }
+173 warn EBADENGINE Unsupported engine {
+173 warn EBADENGINE   package: 'react-router@7.9.6',
+173 warn EBADENGINE   required: { node: '>=20.0.0' },
+173 warn EBADENGINE   current: { node: 'v18.16.0', npm: '9.5.1' }
+173 warn EBADENGINE }
+174 timing idealTree Completed in 1616ms
+175 timing reify:loadTrees Completed in 1616ms
+176 timing reify:diffTrees Completed in 3ms
+177 silly reify moves {}
+178 timing reify:retireShallow Completed in 0ms
+179 timing reify:createSparse Completed in 4ms
+180 timing reify:loadBundles Completed in 0ms
+181 silly audit bulk request {
+181 silly audit   '@babel/code-frame': [ '7.27.1' ],
+181 silly audit   '@babel/compat-data': [ '7.28.5' ],
+181 silly audit   '@babel/core': [ '7.28.5' ],
+181 silly audit   '@babel/generator': [ '7.28.5' ],
+181 silly audit   '@babel/helper-compilation-targets': [ '7.27.2' ],
+181 silly audit   '@babel/helper-globals': [ '7.28.0' ],
+181 silly audit   '@babel/helper-module-imports': [ '7.27.1' ],
+181 silly audit   '@babel/helper-module-transforms': [ '7.28.3' ],
+181 silly audit   '@babel/helper-plugin-utils': [ '7.27.1' ],
+181 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+181 silly audit   '@babel/helper-validator-identifier': [ '7.28.5' ],
+181 silly audit   '@babel/helper-validator-option': [ '7.27.1' ],
+181 silly audit   '@babel/helpers': [ '7.28.4' ],
+181 silly audit   '@babel/parser': [ '7.28.5' ],
+181 silly audit   '@babel/plugin-transform-react-jsx-self': [ '7.27.1' ],
+181 silly audit   '@babel/plugin-transform-react-jsx-source': [ '7.27.1' ],
+181 silly audit   '@babel/template': [ '7.27.2' ],
+181 silly audit   '@babel/traverse': [ '7.28.5' ],
+181 silly audit   '@babel/types': [ '7.28.5' ],
+181 silly audit   '@esbuild/aix-ppc64': [ '0.25.12' ],
+181 silly audit   '@esbuild/android-arm': [ '0.25.12' ],
+181 silly audit   '@esbuild/android-arm64': [ '0.25.12' ],
+181 silly audit   '@esbuild/android-x64': [ '0.25.12' ],
+181 silly audit   '@esbuild/darwin-arm64': [ '0.25.12' ],
+181 silly audit   '@esbuild/darwin-x64': [ '0.25.12' ],
+181 silly audit   '@esbuild/freebsd-arm64': [ '0.25.12' ],
+181 silly audit   '@esbuild/freebsd-x64': [ '0.25.12' ],
+181 silly audit   '@esbuild/linux-arm': [ '0.25.12' ],
+181 silly audit   '@esbuild/linux-arm64': [ '0.25.12' ],
+181 silly audit   '@esbuild/linux-ia32': [ '0.25.12' ],
+181 silly audit   '@esbuild/linux-loong64': [ '0.25.12' ],
+181 silly audit   '@esbuild/linux-mips64el': [ '0.25.12' ],
+181 silly audit   '@esbuild/linux-ppc64': [ '0.25.12' ],
+181 silly audit   '@esbuild/linux-riscv64': [ '0.25.12' ],
+181 silly audit   '@esbuild/linux-s390x': [ '0.25.12' ],
+181 silly audit   '@esbuild/linux-x64': [ '0.25.12' ],
+181 silly audit   '@esbuild/netbsd-arm64': [ '0.25.12' ],
+181 silly audit   '@esbuild/netbsd-x64': [ '0.25.12' ],
+181 silly audit   '@esbuild/openbsd-arm64': [ '0.25.12' ],
+181 silly audit   '@esbuild/openbsd-x64': [ '0.25.12' ],
+181 silly audit   '@esbuild/openharmony-arm64': [ '0.25.12' ],
+181 silly audit   '@esbuild/sunos-x64': [ '0.25.12' ],
+181 silly audit   '@esbuild/win32-arm64': [ '0.25.12' ],
+181 silly audit   '@esbuild/win32-ia32': [ '0.25.12' ],
+181 silly audit   '@esbuild/win32-x64': [ '0.25.12' ],
+181 silly audit   '@eslint-community/eslint-utils': [ '4.9.0' ],
+181 silly audit   'eslint-visitor-keys': [ '3.4.3', '4.2.1' ],
+181 silly audit   '@eslint-community/regexpp': [ '4.12.2' ],
+181 silly audit   '@eslint/config-array': [ '0.21.1' ],
+181 silly audit   '@eslint/config-helpers': [ '0.4.2' ],
+181 silly audit   '@eslint/core': [ '0.17.0' ],
+181 silly audit   '@eslint/eslintrc': [ '3.3.1' ],
+181 silly audit   globals: [ '14.0.0', '16.5.0' ],
+181 silly audit   '@eslint/js': [ '9.39.1' ],
+181 silly audit   '@eslint/object-schema': [ '2.1.7' ],
+181 silly audit   '@eslint/plugin-kit': [ '0.4.1' ],
+181 silly audit   '@humanfs/core': [ '0.19.1' ],
+181 silly audit   '@humanfs/node': [ '0.16.7' ],
+181 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+181 silly audit   '@humanwhocodes/retry': [ '0.4.3' ],
+181 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+181 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+181 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+181 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+181 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+181 silly audit   '@rolldown/pluginutils': [ '1.0.0-beta.47' ],
+181 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.53.2' ],
+181 silly audit   '@rollup/rollup-android-arm64': [ '4.53.2' ],
+181 silly audit   '@rollup/rollup-darwin-arm64': [ '4.53.2' ],
+181 silly audit   '@rollup/rollup-darwin-x64': [ '4.53.2' ],
+181 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.53.2' ],
+181 silly audit   '@rollup/rollup-freebsd-x64': [ '4.53.2' ],
+181 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.53.2' ],
+181 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.53.2' ],
+181 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.53.2' ],
+181 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.53.2' ],
+181 silly audit   '@rollup/rollup-linux-loong64-gnu': [ '4.53.2' ],
+181 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.53.2' ],
+181 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.53.2' ],
+181 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.53.2' ],
+181 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.53.2' ],
+181 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.53.2' ],
+181 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.53.2' ],
+181 silly audit   '@rollup/rollup-openharmony-arm64': [ '4.53.2' ],
+181 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.53.2' ],
+181 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.53.2' ],
+181 silly audit   '@rollup/rollup-win32-x64-gnu': [ '4.53.2' ],
+181 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.53.2' ],
+181 silly audit   '@types/babel__core': [ '7.20.5' ],
+181 silly audit   '@types/babel__generator': [ '7.27.0' ],
+181 silly audit   '@types/babel__template': [ '7.4.4' ],
+181 silly audit   '@types/babel__traverse': [ '7.28.0' ],
+181 silly audit   '@types/estree': [ '1.0.8' ],
+181 silly audit   '@types/json-schema': [ '7.0.15' ],
+181 silly audit   '@types/react': [ '19.2.5' ],
+181 silly audit   '@types/react-dom': [ '19.2.3' ],
+181 silly audit   '@vitejs/plugin-react': [ '5.1.1' ],
+181 silly audit   acorn: [ '8.15.0' ],
+181 silly audit   'acorn-jsx': [ '5.3.2' ],
+181 silly audit   ajv: [ '6.12.6' ],
+181 silly audit   'ansi-styles': [ '4.3.0' ],
+181 silly audit   argparse: [ '2.0.1' ],
+181 silly audit   'balanced-match': [ '1.0.2' ],
+181 silly audit   'baseline-browser-mapping': [ '2.8.28' ],
+181 silly audit   'brace-expansion': [ '1.1.12' ],
+181 silly audit   browserslist: [ '4.28.0' ],
+181 silly audit   callsites: [ '3.1.0' ],
+181 silly audit   'caniuse-lite': [ '1.0.30001754' ],
+181 silly audit   chalk: [ '4.1.2' ],
+181 silly audit   'color-convert': [ '2.0.1' ],
+181 silly audit   'color-name': [ '1.1.4' ],
+181 silly audit   'concat-map': [ '0.0.1' ],
+181 silly audit   'convert-source-map': [ '2.0.0' ],
+181 silly audit   'cross-spawn': [ '7.0.6' ],
+181 silly audit   csstype: [ '3.2.1' ],
+181 silly audit   debug: [ '4.4.3' ],
+181 silly audit   'deep-is': [ '0.1.4' ],
+181 silly audit   'electron-to-chromium': [ '1.5.253' ],
+181 silly audit   esbuild: [ '0.25.12' ],
+181 silly audit   escalade: [ '3.2.0' ],
+181 silly audit   'escape-string-regexp': [ '4.0.0' ],
+181 silly audit   eslint: [ '9.39.1' ],
+181 silly audit   'eslint-plugin-react-hooks': [ '7.0.1' ],
+181 silly audit   'eslint-plugin-react-refresh': [ '0.4.24' ],
+181 silly audit   'eslint-scope': [ '8.4.0' ],
+181 silly audit   espree: [ '10.4.0' ],
+181 silly audit   esquery: [ '1.6.0' ],
+181 silly audit   esrecurse: [ '4.3.0' ],
+181 silly audit   estraverse: [ '5.3.0' ],
+181 silly audit   esutils: [ '2.0.3' ],
+181 silly audit   'fast-deep-equal': [ '3.1.3' ],
+181 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+181 silly audit   'fast-levenshtein': [ '2.0.6' ],
+181 silly audit   fdir: [ '6.5.0' ],
+181 silly audit   'file-entry-cache': [ '8.0.0' ],
+181 silly audit   'find-up': [ '5.0.0' ],
+181 silly audit   'flat-cache': [ '4.0.1' ],
+181 silly audit   flatted: [ '3.3.3' ],
+181 silly audit   fsevents: [ '2.3.3' ],
+181 silly audit   gensync: [ '1.0.0-beta.2' ],
+181 silly audit   'glob-parent': [ '6.0.2' ],
+181 silly audit   'has-flag': [ '4.0.0' ],
+181 silly audit   'hermes-estree': [ '0.25.1' ],
+181 silly audit   'hermes-parser': [ '0.25.1' ],
+181 silly audit   ignore: [ '5.3.2' ],
+181 silly audit   'import-fresh': [ '3.3.1' ],
+181 silly audit   imurmurhash: [ '0.1.4' ],
+181 silly audit   'is-extglob': [ '2.1.1' ],
+181 silly audit   'is-glob': [ '4.0.3' ],
+181 silly audit   isexe: [ '2.0.0' ],
+181 silly audit   'js-tokens': [ '4.0.0' ],
+181 silly audit   'js-yaml': [ '4.1.1' ],
+181 silly audit   jsesc: [ '3.1.0' ],
+181 silly audit   'json-buffer': [ '3.0.1' ],
+181 silly audit   'json-schema-traverse': [ '0.4.1' ],
+181 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+181 silly audit   json5: [ '2.2.3' ],
+181 silly audit   keyv: [ '4.5.4' ],
+181 silly audit   levn: [ '0.4.1' ],
+181 silly audit   'locate-path': [ '6.0.0' ],
+181 silly audit   'lodash.merge': [ '4.6.2' ],
+181 silly audit   'lru-cache': [ '5.1.1' ],
+181 silly audit   minimatch: [ '3.1.2' ],
+181 silly audit   ms: [ '2.1.3' ],
+181 silly audit   nanoid: [ '3.3.11' ],
+181 silly audit   'natural-compare': [ '1.4.0' ],
+181 silly audit   'node-releases': [ '2.0.27' ],
+181 silly audit   optionator: [ '0.9.4' ],
+181 silly audit   'p-limit': [ '3.1.0' ],
+181 silly audit   'p-locate': [ '5.0.0' ],
+181 silly audit   'parent-module': [ '1.0.1' ],
+181 silly audit   'path-exists': [ '4.0.0' ],
+181 silly audit   'path-key': [ '3.1.1' ],
+181 silly audit   picocolors: [ '1.1.1' ],
+181 silly audit   picomatch: [ '4.0.3' ],
+181 silly audit   postcss: [ '8.5.6' ],
+181 silly audit   'prelude-ls': [ '1.2.1' ],
+181 silly audit   punycode: [ '2.3.1' ],
+181 silly audit   react: [ '19.2.0' ],
+181 silly audit   'react-dom': [ '19.2.0' ],
+181 silly audit   'react-refresh': [ '0.18.0' ],
+181 silly audit   'resolve-from': [ '4.0.0' ],
+181 silly audit   rollup: [ '4.53.2' ],
+181 silly audit   scheduler: [ '0.27.0' ],
+181 silly audit   semver: [ '6.3.1' ],
+181 silly audit   'shebang-command': [ '2.0.0' ],
+181 silly audit   'shebang-regex': [ '3.0.0' ],
+181 silly audit   'source-map-js': [ '1.2.1' ],
+181 silly audit   'strip-json-comments': [ '3.1.1' ],
+181 silly audit   'supports-color': [ '7.2.0' ],
+181 silly audit   tinyglobby: [ '0.2.15' ],
+181 silly audit   'type-check': [ '0.4.0' ],
+181 silly audit   'update-browserslist-db': [ '1.1.4' ],
+181 silly audit   'uri-js': [ '4.4.1' ],
+181 silly audit   vite: [ '7.2.2' ],
+181 silly audit   which: [ '2.0.2' ],
+181 silly audit   'word-wrap': [ '1.2.5' ],
+181 silly audit   yallist: [ '3.1.1' ],
+181 silly audit   'yocto-queue': [ '0.1.0' ],
+181 silly audit   zod: [ '4.1.12' ],
+181 silly audit   'zod-validation-error': [ '4.0.2' ],
+181 silly audit   axios: [ '1.13.2' ],
+181 silly audit   'react-router-dom': [ '7.9.6' ],
+181 silly audit   'follow-redirects': [ '1.15.11' ],
+181 silly audit   'form-data': [ '4.0.4' ],
+181 silly audit   'proxy-from-env': [ '1.1.0' ],
+181 silly audit   asynckit: [ '0.4.0' ],
+181 silly audit   'combined-stream': [ '1.0.8' ],
+181 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+181 silly audit   hasown: [ '2.0.2' ],
+181 silly audit   'mime-types': [ '2.1.35' ],
+181 silly audit   'delayed-stream': [ '1.0.0' ],
+181 silly audit   'es-errors': [ '1.3.0' ],
+181 silly audit   'get-intrinsic': [ '1.3.0' ],
+181 silly audit   'has-tostringtag': [ '1.0.2' ],
+181 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+181 silly audit   'es-define-property': [ '1.0.1' ],
+181 silly audit   'es-object-atoms': [ '1.1.1' ],
+181 silly audit   'function-bind': [ '1.1.2' ],
+181 silly audit   'get-proto': [ '1.0.1' ],
+181 silly audit   gopd: [ '1.2.0' ],
+181 silly audit   'has-symbols': [ '1.1.0' ],
+181 silly audit   'math-intrinsics': [ '1.1.0' ],
+181 silly audit   'dunder-proto': [ '1.0.1' ],
+181 silly audit   'mime-db': [ '1.52.0' ],
+181 silly audit   'react-router': [ '7.9.6' ],
+181 silly audit   cookie: [ '1.0.2' ],
+181 silly audit   'set-cookie-parser': [ '2.7.2' ]
+181 silly audit }
+182 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-win32-x64-msvc
+183 silly reify mark deleted [
+183 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-win32-x64-msvc'
+183 silly reify ]
+184 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-win32-x64-gnu
+185 silly reify mark deleted [
+185 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-win32-x64-gnu'
+185 silly reify ]
+186 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-win32-ia32-msvc
+187 silly reify mark deleted [
+187 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-win32-ia32-msvc'
+187 silly reify ]
+188 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-win32-arm64-msvc
+189 silly reify mark deleted [
+189 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-win32-arm64-msvc'
+189 silly reify ]
+190 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-openharmony-arm64
+191 silly reify mark deleted [
+191 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-openharmony-arm64'
+191 silly reify ]
+192 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-linux-x64-musl
+193 silly reify mark deleted [
+193 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-linux-x64-musl'
+193 silly reify ]
+194 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-linux-x64-gnu
+195 silly reify mark deleted [
+195 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-linux-x64-gnu'
+195 silly reify ]
+196 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-linux-s390x-gnu
+197 silly reify mark deleted [
+197 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-linux-s390x-gnu'
+197 silly reify ]
+198 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-linux-riscv64-musl
+199 silly reify mark deleted [
+199 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-linux-riscv64-musl'
+199 silly reify ]
+200 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-linux-riscv64-gnu
+201 silly reify mark deleted [
+201 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-linux-riscv64-gnu'
+201 silly reify ]
+202 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-linux-ppc64-gnu
+203 silly reify mark deleted [
+203 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-linux-ppc64-gnu'
+203 silly reify ]
+204 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-linux-loong64-gnu
+205 silly reify mark deleted [
+205 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-linux-loong64-gnu'
+205 silly reify ]
+206 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-linux-arm64-musl
+207 silly reify mark deleted [
+207 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-linux-arm64-musl'
+207 silly reify ]
+208 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-linux-arm64-gnu
+209 silly reify mark deleted [
+209 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-linux-arm64-gnu'
+209 silly reify ]
+210 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-linux-arm-musleabihf
+211 silly reify mark deleted [
+211 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-linux-arm-musleabihf'
+211 silly reify ]
+212 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-linux-arm-gnueabihf
+213 silly reify mark deleted [
+213 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-linux-arm-gnueabihf'
+213 silly reify ]
+214 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-freebsd-x64
+215 silly reify mark deleted [
+215 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-freebsd-x64'
+215 silly reify ]
+216 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-freebsd-arm64
+217 silly reify mark deleted [
+217 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-freebsd-arm64'
+217 silly reify ]
+218 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-darwin-x64
+219 silly reify mark deleted [
+219 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-darwin-x64'
+219 silly reify ]
+220 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-android-arm64
+221 silly reify mark deleted [
+221 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-android-arm64'
+221 silly reify ]
+222 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-android-arm-eabi
+223 silly reify mark deleted [
+223 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@rollup/rollup-android-arm-eabi'
+223 silly reify ]
+224 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/win32-x64
+225 silly reify mark deleted [
+225 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/win32-x64'
+225 silly reify ]
+226 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/win32-ia32
+227 silly reify mark deleted [
+227 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/win32-ia32'
+227 silly reify ]
+228 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/win32-arm64
+229 silly reify mark deleted [
+229 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/win32-arm64'
+229 silly reify ]
+230 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/sunos-x64
+231 silly reify mark deleted [
+231 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/sunos-x64'
+231 silly reify ]
+232 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/openharmony-arm64
+233 silly reify mark deleted [
+233 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/openharmony-arm64'
+233 silly reify ]
+234 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/openbsd-x64
+235 silly reify mark deleted [
+235 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/openbsd-x64'
+235 silly reify ]
+236 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/openbsd-arm64
+237 silly reify mark deleted [
+237 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/openbsd-arm64'
+237 silly reify ]
+238 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/netbsd-x64
+239 silly reify mark deleted [
+239 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/netbsd-x64'
+239 silly reify ]
+240 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/netbsd-arm64
+241 silly reify mark deleted [
+241 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/netbsd-arm64'
+241 silly reify ]
+242 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/linux-x64
+243 silly reify mark deleted [
+243 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/linux-x64'
+243 silly reify ]
+244 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/linux-s390x
+245 silly reify mark deleted [
+245 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/linux-s390x'
+245 silly reify ]
+246 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/linux-riscv64
+247 silly reify mark deleted [
+247 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/linux-riscv64'
+247 silly reify ]
+248 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/linux-ppc64
+249 silly reify mark deleted [
+249 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/linux-ppc64'
+249 silly reify ]
+250 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/linux-mips64el
+251 silly reify mark deleted [
+251 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/linux-mips64el'
+251 silly reify ]
+252 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/linux-loong64
+253 silly reify mark deleted [
+253 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/linux-loong64'
+253 silly reify ]
+254 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/linux-ia32
+255 silly reify mark deleted [
+255 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/linux-ia32'
+255 silly reify ]
+256 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/linux-arm64
+257 silly reify mark deleted [
+257 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/linux-arm64'
+257 silly reify ]
+258 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/linux-arm
+259 silly reify mark deleted [
+259 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/linux-arm'
+259 silly reify ]
+260 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/freebsd-x64
+261 silly reify mark deleted [
+261 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/freebsd-x64'
+261 silly reify ]
+262 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/freebsd-arm64
+263 silly reify mark deleted [
+263 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/freebsd-arm64'
+263 silly reify ]
+264 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/darwin-x64
+265 silly reify mark deleted [
+265 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/darwin-x64'
+265 silly reify ]
+266 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/android-x64
+267 silly reify mark deleted [
+267 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/android-x64'
+267 silly reify ]
+268 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/android-arm64
+269 silly reify mark deleted [
+269 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/android-arm64'
+269 silly reify ]
+270 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/android-arm
+271 silly reify mark deleted [
+271 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/android-arm'
+271 silly reify ]
+272 verbose reify failed optional dependency /Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/aix-ppc64
+273 silly reify mark deleted [
+273 silly reify   '/Users/anubalaji/Website/K3_Site/frontend/node_modules/@esbuild/aix-ppc64'
+273 silly reify ]
+274 timing reifyNode:node_modules/@rollup/rollup-win32-x64-msvc Completed in 7ms
+275 timing reifyNode:node_modules/@rollup/rollup-win32-x64-gnu Completed in 7ms
+276 timing reifyNode:node_modules/@rollup/rollup-win32-ia32-msvc Completed in 7ms
+277 timing reifyNode:node_modules/@rollup/rollup-win32-arm64-msvc Completed in 6ms
+278 timing reifyNode:node_modules/@rollup/rollup-openharmony-arm64 Completed in 6ms
+279 timing reifyNode:node_modules/@rollup/rollup-linux-x64-musl Completed in 6ms
+280 timing reifyNode:node_modules/@rollup/rollup-linux-x64-gnu Completed in 6ms
+281 timing reifyNode:node_modules/@rollup/rollup-linux-s390x-gnu Completed in 6ms
+282 timing reifyNode:node_modules/@rollup/rollup-linux-riscv64-musl Completed in 6ms
+283 timing reifyNode:node_modules/@rollup/rollup-linux-riscv64-gnu Completed in 6ms
+284 timing reifyNode:node_modules/@rollup/rollup-linux-ppc64-gnu Completed in 6ms
+285 timing reifyNode:node_modules/@rollup/rollup-linux-loong64-gnu Completed in 6ms
+286 timing reifyNode:node_modules/@rollup/rollup-linux-arm64-musl Completed in 6ms
+287 timing reifyNode:node_modules/@rollup/rollup-linux-arm64-gnu Completed in 6ms
+288 timing reifyNode:node_modules/@rollup/rollup-linux-arm-musleabihf Completed in 6ms
+289 timing reifyNode:node_modules/@rollup/rollup-linux-arm-gnueabihf Completed in 6ms
+290 timing reifyNode:node_modules/@rollup/rollup-freebsd-x64 Completed in 6ms
+291 timing reifyNode:node_modules/@rollup/rollup-freebsd-arm64 Completed in 6ms
+292 timing reifyNode:node_modules/@rollup/rollup-darwin-x64 Completed in 6ms
+293 timing reifyNode:node_modules/@rollup/rollup-android-arm64 Completed in 6ms
+294 timing reifyNode:node_modules/@rollup/rollup-android-arm-eabi Completed in 6ms
+295 timing reifyNode:node_modules/@esbuild/win32-x64 Completed in 6ms
+296 timing reifyNode:node_modules/@esbuild/win32-ia32 Completed in 6ms
+297 timing reifyNode:node_modules/@esbuild/win32-arm64 Completed in 6ms
+298 timing reifyNode:node_modules/@esbuild/sunos-x64 Completed in 6ms
+299 timing reifyNode:node_modules/@esbuild/openharmony-arm64 Completed in 6ms
+300 timing reifyNode:node_modules/@esbuild/openbsd-x64 Completed in 6ms
+301 timing reifyNode:node_modules/@esbuild/openbsd-arm64 Completed in 6ms
+302 timing reifyNode:node_modules/@esbuild/netbsd-x64 Completed in 6ms
+303 timing reifyNode:node_modules/@esbuild/netbsd-arm64 Completed in 6ms
+304 timing reifyNode:node_modules/@esbuild/linux-x64 Completed in 6ms
+305 timing reifyNode:node_modules/@esbuild/linux-s390x Completed in 6ms
+306 timing reifyNode:node_modules/@esbuild/linux-riscv64 Completed in 6ms
+307 timing reifyNode:node_modules/@esbuild/linux-ppc64 Completed in 6ms
+308 timing reifyNode:node_modules/@esbuild/linux-mips64el Completed in 6ms
+309 timing reifyNode:node_modules/@esbuild/linux-loong64 Completed in 6ms
+310 timing reifyNode:node_modules/@esbuild/linux-ia32 Completed in 6ms
+311 timing reifyNode:node_modules/@esbuild/linux-arm64 Completed in 6ms
+312 timing reifyNode:node_modules/@esbuild/linux-arm Completed in 6ms
+313 timing reifyNode:node_modules/@esbuild/freebsd-x64 Completed in 6ms
+314 timing reifyNode:node_modules/@esbuild/freebsd-arm64 Completed in 6ms
+315 timing reifyNode:node_modules/@esbuild/darwin-x64 Completed in 6ms
+316 timing reifyNode:node_modules/@esbuild/android-x64 Completed in 6ms
+317 timing reifyNode:node_modules/@esbuild/android-arm64 Completed in 6ms
+318 timing reifyNode:node_modules/@esbuild/android-arm Completed in 6ms
+319 timing reifyNode:node_modules/@esbuild/aix-ppc64 Completed in 6ms
+320 silly tarball no local data for cookie@https://registry.npmjs.org/cookie/-/cookie-1.0.2.tgz. Extracting by manifest.
+321 silly tarball no local data for set-cookie-parser@https://registry.npmjs.org/set-cookie-parser/-/set-cookie-parser-2.7.2.tgz. Extracting by manifest.
+322 silly tarball no local data for dunder-proto@https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.1.tgz. Extracting by manifest.
+323 silly tarball no local data for math-intrinsics@https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz. Extracting by manifest.
+324 silly tarball no local data for mime-db@https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz. Extracting by manifest.
+325 silly tarball no local data for react-router@https://registry.npmjs.org/react-router/-/react-router-7.9.6.tgz. Extracting by manifest.
+326 silly tarball no local data for has-symbols@https://registry.npmjs.org/has-symbols/-/has-symbols-1.1.0.tgz. Extracting by manifest.
+327 silly tarball no local data for gopd@https://registry.npmjs.org/gopd/-/gopd-1.2.0.tgz. Extracting by manifest.
+328 silly tarball no local data for function-bind@https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz. Extracting by manifest.
+329 silly tarball no local data for call-bind-apply-helpers@https://registry.npmjs.org/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz. Extracting by manifest.
+330 silly tarball no local data for get-proto@https://registry.npmjs.org/get-proto/-/get-proto-1.0.1.tgz. Extracting by manifest.
+331 silly tarball no local data for es-object-atoms@https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.1.1.tgz. Extracting by manifest.
+332 silly tarball no local data for get-intrinsic@https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.3.0.tgz. Extracting by manifest.
+333 silly tarball no local data for es-errors@https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz. Extracting by manifest.
+334 silly tarball no local data for mime-types@https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz. Extracting by manifest.
+335 silly tarball no local data for hasown@https://registry.npmjs.org/hasown/-/hasown-2.0.2.tgz. Extracting by manifest.
+336 silly tarball no local data for delayed-stream@https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz. Extracting by manifest.
+337 silly tarball no local data for has-tostringtag@https://registry.npmjs.org/has-tostringtag/-/has-tostringtag-1.0.2.tgz. Extracting by manifest.
+338 silly tarball no local data for es-set-tostringtag@https://registry.npmjs.org/es-set-tostringtag/-/es-set-tostringtag-2.1.0.tgz. Extracting by manifest.
+339 silly tarball no local data for react-router-dom@https://registry.npmjs.org/react-router-dom/-/react-router-dom-7.9.6.tgz. Extracting by manifest.
+340 silly tarball no local data for form-data@https://registry.npmjs.org/form-data/-/form-data-4.0.4.tgz. Extracting by manifest.
+341 silly tarball no local data for follow-redirects@https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.11.tgz. Extracting by manifest.
+342 silly tarball no local data for proxy-from-env@https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz. Extracting by manifest.
+343 silly tarball no local data for combined-stream@https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz. Extracting by manifest.
+344 silly tarball no local data for asynckit@https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz. Extracting by manifest.
+345 silly tarball no local data for axios@https://registry.npmjs.org/axios/-/axios-1.13.2.tgz. Extracting by manifest.
+346 silly tarball no local data for es-define-property@https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.1.tgz. Extracting by manifest.
+347 http fetch GET 200 https://registry.npmjs.org/cookie/-/cookie-1.0.2.tgz 79ms (cache miss)
+348 timing reifyNode:node_modules/cookie Completed in 95ms
+349 http fetch GET 200 https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz 77ms (cache miss)
+350 http fetch GET 200 https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.1.tgz 78ms (cache miss)
+351 timing reifyNode:node_modules/dunder-proto Completed in 96ms
+352 timing reifyNode:node_modules/mime-db Completed in 97ms
+353 http fetch GET 200 https://registry.npmjs.org/set-cookie-parser/-/set-cookie-parser-2.7.2.tgz 82ms (cache miss)
+354 timing reifyNode:node_modules/set-cookie-parser Completed in 99ms
+355 http fetch GET 200 https://registry.npmjs.org/has-symbols/-/has-symbols-1.1.0.tgz 81ms (cache miss)
+356 timing reifyNode:node_modules/has-symbols Completed in 101ms
+357 http fetch GET 200 https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz 105ms (cache miss)
+358 timing reifyNode:node_modules/math-intrinsics Completed in 129ms
+359 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 135ms
+360 timing auditReport:getReport Completed in 137ms
+361 silly audit report {}
+362 timing auditReport:init Completed in 0ms
+363 timing reify:audit Completed in 137ms
+364 http fetch GET 200 https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz 107ms (cache miss)
+365 timing reifyNode:node_modules/mime-types Completed in 136ms
+366 http fetch GET 200 https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.3.0.tgz 118ms (cache miss)
+367 timing reifyNode:node_modules/get-intrinsic Completed in 143ms
+368 http fetch GET 200 https://registry.npmjs.org/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz 121ms (cache miss)
+369 timing reifyNode:node_modules/call-bind-apply-helpers Completed in 148ms
+370 http fetch GET 200 https://registry.npmjs.org/hasown/-/hasown-2.0.2.tgz 129ms (cache miss)
+371 timing reifyNode:node_modules/hasown Completed in 160ms
+372 http fetch GET 200 https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz 130ms (cache miss)
+373 timing reifyNode:node_modules/delayed-stream Completed in 160ms
+374 http fetch GET 200 https://registry.npmjs.org/has-tostringtag/-/has-tostringtag-1.0.2.tgz 132ms (cache miss)
+375 http fetch GET 200 https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.1.1.tgz 139ms (cache miss)
+376 http fetch GET 200 https://registry.npmjs.org/gopd/-/gopd-1.2.0.tgz 146ms (cache miss)
+377 timing reifyNode:node_modules/es-object-atoms Completed in 169ms
+378 timing reifyNode:node_modules/gopd Completed in 176ms
+379 http fetch GET 200 https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz 158ms (cache miss)
+380 timing reifyNode:node_modules/function-bind Completed in 180ms
+381 timing reifyNode:node_modules/has-tostringtag Completed in 182ms
+382 http fetch GET 200 https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz 157ms (cache miss)
+383 timing reifyNode:node_modules/es-errors Completed in 185ms
+384 http fetch GET 200 https://registry.npmjs.org/react-router-dom/-/react-router-dom-7.9.6.tgz 158ms (cache miss)
+385 timing reifyNode:node_modules/react-router-dom Completed in 190ms
+386 http fetch GET 200 https://registry.npmjs.org/get-proto/-/get-proto-1.0.1.tgz 168ms (cache miss)
+387 timing reifyNode:node_modules/get-proto Completed in 193ms
+388 http fetch GET 200 https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz 162ms (cache miss)
+389 timing reifyNode:node_modules/combined-stream Completed in 195ms
+390 http fetch GET 200 https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz 163ms (cache miss)
+391 timing reifyNode:node_modules/proxy-from-env Completed in 195ms
+392 http fetch GET 200 https://registry.npmjs.org/es-set-tostringtag/-/es-set-tostringtag-2.1.0.tgz 170ms (cache miss)
+393 timing reifyNode:node_modules/es-set-tostringtag Completed in 201ms
+394 http fetch GET 200 https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz 168ms (cache miss)
+395 timing reifyNode:node_modules/asynckit Completed in 202ms
+396 http fetch GET 200 https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.11.tgz 170ms (cache miss)
+397 timing reifyNode:node_modules/follow-redirects Completed in 203ms
+398 http fetch GET 200 https://registry.npmjs.org/form-data/-/form-data-4.0.4.tgz 174ms (cache miss)
+399 timing reifyNode:node_modules/form-data Completed in 206ms
+400 http fetch GET 200 https://registry.npmjs.org/react-router/-/react-router-7.9.6.tgz 205ms (cache miss)
+401 timing reifyNode:node_modules/react-router Completed in 225ms
+402 http fetch GET 200 https://registry.npmjs.org/axios/-/axios-1.13.2.tgz 201ms (cache miss)
+403 timing reifyNode:node_modules/axios Completed in 234ms
+404 http fetch GET 200 https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.1.tgz 333ms (cache miss)
+405 timing reifyNode:node_modules/es-define-property Completed in 367ms
+406 timing reify:unpack Completed in 368ms
+407 timing reify:unretire Completed in 0ms
+408 timing build:queue Completed in 1ms
+409 timing build:deps Completed in 1ms
+410 timing build Completed in 2ms
+411 timing reify:build Completed in 2ms
+412 timing reify:trash Completed in 3ms
+413 timing reify:save Completed in 30ms
+414 timing reify Completed in 2040ms
+415 silly ADD node_modules/set-cookie-parser
+416 silly ADD node_modules/cookie
+417 silly ADD node_modules/react-router
+418 silly ADD node_modules/mime-db
+419 silly ADD node_modules/dunder-proto
+420 silly ADD node_modules/math-intrinsics
+421 silly ADD node_modules/has-symbols
+422 silly ADD node_modules/gopd
+423 silly ADD node_modules/get-proto
+424 silly ADD node_modules/function-bind
+425 silly ADD node_modules/es-object-atoms
+426 silly ADD node_modules/es-define-property
+427 silly ADD node_modules/call-bind-apply-helpers
+428 silly ADD node_modules/has-tostringtag
+429 silly ADD node_modules/get-intrinsic
+430 silly ADD node_modules/es-errors
+431 silly ADD node_modules/delayed-stream
+432 silly ADD node_modules/mime-types
+433 silly ADD node_modules/hasown
+434 silly ADD node_modules/es-set-tostringtag
+435 silly ADD node_modules/combined-stream
+436 silly ADD node_modules/asynckit
+437 silly ADD node_modules/proxy-from-env
+438 silly ADD node_modules/form-data
+439 silly ADD node_modules/follow-redirects
+440 silly ADD node_modules/react-router-dom
+441 silly ADD node_modules/axios
+442 silly ADD
+443 silly ADD
+444 silly ADD
+445 silly ADD
+446 silly ADD
+447 silly ADD
+448 silly ADD
+449 silly ADD
+450 silly ADD
+451 silly ADD
+452 silly ADD
+453 silly ADD
+454 silly ADD
+455 silly ADD
+456 silly ADD
+457 silly ADD
+458 silly ADD
+459 silly ADD
+460 silly ADD
+461 silly ADD
+462 silly ADD
+463 silly ADD
+464 silly ADD
+465 silly ADD
+466 silly ADD
+467 silly ADD
+468 silly ADD
+469 silly ADD
+470 silly ADD
+471 silly ADD
+472 silly ADD
+473 silly ADD
+474 silly ADD
+475 silly ADD
+476 silly ADD
+477 silly ADD
+478 silly ADD
+479 silly ADD
+480 silly ADD
+481 silly ADD
+482 silly ADD
+483 silly ADD
+484 silly ADD
+485 silly ADD
+486 silly ADD
+487 silly ADD
+488 timing command:install Completed in 2044ms
+489 verbose exit 0
+490 timing npm Completed in 2058ms
+491 info ok

@@ -1,0 +1,383 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@9.5.1
+2 info using node@v18.16.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 0ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 0ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/Users/anubalaji/Website/K3_Site/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 0ms
+11 timing config:load:file:/Users/anubalaji/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/usr/local/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 0ms
+16 timing config:load Completed in 3ms
+17 timing npm:load:configload Completed in 3ms
+18 timing npm:load:mkdirpcache Completed in 0ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm create vite@latest frontend --template react
+21 verbose argv "create" "vite@latest" "frontend" "--" "--template" "react"
+22 timing npm:load:setTitle Completed in 1ms
+23 timing config:load:flatten Completed in 1ms
+24 timing npm:load:display Completed in 1ms
+25 verbose logfile logs-max:10 dir:/Users/anubalaji/Website/K3_Site/.npm-cache/_logs/2025-11-15T18_32_38_329Z-
+26 verbose logfile /Users/anubalaji/Website/K3_Site/.npm-cache/_logs/2025-11-15T18_32_38_329Z-debug-0.log
+27 timing npm:load:logFile Completed in 3ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 9ms
+31 silly logfile done cleaning log files
+32 timing arborist:ctor Completed in 1ms
+33 http fetch GET 200 https://registry.npmjs.org/create-vite 323ms (cache miss)
+34 timing arborist:ctor Completed in 1ms
+35 warn exec The following package was not found and will be installed: create-vite@8.1.0
+36 timing arborist:ctor Completed in 0ms
+37 timing idealTree:init Completed in 3ms
+38 timing idealTree:userRequests Completed in 2ms
+39 silly idealTree buildDeps
+40 silly fetch manifest create-vite@8.1.0
+41 http fetch GET 200 https://registry.npmjs.org/create-vite 7ms (cache hit)
+42 silly placeDep ROOT create-vite@8.1.0 OK for:  want: 8.1.0
+43 timing idealTree:#root Completed in 12ms
+44 timing idealTree:node_modules/create-vite Completed in 0ms
+45 timing idealTree:buildDeps Completed in 13ms
+46 timing idealTree:fixDepFlags Completed in 1ms
+47 warn EBADENGINE Unsupported engine {
+47 warn EBADENGINE   package: 'create-vite@8.1.0',
+47 warn EBADENGINE   required: { node: '^20.19.0 || >=22.12.0' },
+47 warn EBADENGINE   current: { node: 'v18.16.0', npm: '9.5.1' }
+47 warn EBADENGINE }
+48 timing idealTree Completed in 21ms
+49 timing reify:loadTrees Completed in 21ms
+50 timing reify:diffTrees Completed in 0ms
+51 silly reify moves {}
+52 timing reify:retireShallow Completed in 1ms
+53 timing reify:createSparse Completed in 0ms
+54 timing reify:loadBundles Completed in 0ms
+55 silly audit bulk request { 'create-vite': [ '8.1.0' ] }
+56 silly tarball no local data for create-vite@https://registry.npmjs.org/create-vite/-/create-vite-8.1.0.tgz. Extracting by manifest.
+57 warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/Users/anubalaji/Website/K3_Site/.npm-cache/_npx/1415fee72ff6294b/node_modules/create-vite/template-svelte-ts/.vscode'
+58 silly tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/Users/anubalaji/Website/K3_Site/.npm-cache/_npx/1415fee72ff6294b/node_modules/create-vite/template-svelte-ts/.vscode' [Error: ENOENT: no such file or directory, lstat '/Users/anubalaji/Website/K3_Site/.npm-cache/_npx/1415fee72ff6294b/node_modules/create-vite/template-svelte-ts/.vscode'] {
+58 silly tar   errno: -2,
+58 silly tar   code: 'ENOENT',
+58 silly tar   syscall: 'lstat',
+58 silly tar   path: '/Users/anubalaji/Website/K3_Site/.npm-cache/_npx/1415fee72ff6294b/node_modules/create-vite/template-svelte-ts/.vscode',
+58 silly tar   entry: ReadEntry {
+58 silly tar     _events: [Object: null prototype] { end: [Function (anonymous)] },
+58 silly tar     _eventsCount: 1,
+58 silly tar     _maxListeners: undefined,
+58 silly tar     writable: false,
+58 silly tar     readable: true,
+58 silly tar     extended: null,
+58 silly tar     globalExtended: null,
+58 silly tar     header: Header {
+58 silly tar       cksumValid: true,
+58 silly tar       needPax: false,
+58 silly tar       nullBlock: false,
+58 silly tar       block: null,
+58 silly tar       path: 'package/template-svelte-ts/.vscode/extensions.json',
+58 silly tar       mode: 420,
+58 silly tar       uid: 0,
+58 silly tar       gid: 0,
+58 silly tar       size: 50,
+58 silly tar       mtime: 1985-10-26T08:15:00.000Z,
+58 silly tar       cksum: 8712,
+58 silly tar       linkpath: '',
+58 silly tar       uname: '',
+58 silly tar       gname: '',
+58 silly tar       devmaj: 0,
+58 silly tar       devmin: 0,
+58 silly tar       atime: null,
+58 silly tar       ctime: null,
+58 silly tar       [Symbol(type)]: '0'
+58 silly tar     },
+58 silly tar     startBlockSize: 512,
+58 silly tar     blockRemain: 0,
+58 silly tar     remain: 0,
+58 silly tar     type: 'File',
+58 silly tar     meta: false,
+58 silly tar     ignore: false,
+58 silly tar     path: 'template-svelte-ts/.vscode/extensions.json',
+58 silly tar     mode: 438,
+58 silly tar     uid: 0,
+58 silly tar     gid: 0,
+58 silly tar     uname: '',
+58 silly tar     gname: '',
+58 silly tar     size: 50,
+58 silly tar     mtime: 1985-10-26T08:15:00.000Z,
+58 silly tar     atime: null,
+58 silly tar     ctime: null,
+58 silly tar     linkpath: '',
+58 silly tar     absolute: '/Users/anubalaji/Website/K3_Site/.npm-cache/_npx/1415fee72ff6294b/node_modules/create-vite/template-svelte-ts/.vscode/extensions.json',
+58 silly tar     [Symbol(kCapture)]: false,
+58 silly tar     [Symbol(flowing)]: false,
+58 silly tar     [Symbol(paused)]: true,
+58 silly tar     [Symbol(pipes)]: [],
+58 silly tar     [Symbol(buffer)]: [
+58 silly tar       <Buffer 7b 0a 20 20 22 72 65 63 6f 6d 6d 65 6e 64 61 74 69 6f 6e 73 22 3a 20 5b 22 73 76 65 6c 74 65 2e 73 76 65 6c 74 65 2d 76 73 63 6f 64 65 22 5d 0a 7d 0a>
+58 silly tar     ],
+58 silly tar     [Symbol(objectMode)]: false,
+58 silly tar     [Symbol(encoding)]: null,
+58 silly tar     [Symbol(async)]: false,
+58 silly tar     [Symbol(decoder)]: null,
+58 silly tar     [Symbol(EOF)]: true,
+58 silly tar     [Symbol(emittedEnd)]: false,
+58 silly tar     [Symbol(emittingEnd)]: false,
+58 silly tar     [Symbol(closed)]: false,
+58 silly tar     [Symbol(emittedError)]: null,
+58 silly tar     [Symbol(bufferLength)]: 50,
+58 silly tar     [Symbol(destroyed)]: false
+58 silly tar   },
+58 silly tar   cwd: '/Users/anubalaji/Website/K3_Site/.npm-cache/_npx/1415fee72ff6294b/node_modules/create-vite',
+58 silly tar   tarCode: 'TAR_ENTRY_ERROR'
+58 silly tar }
+59 warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/Users/anubalaji/Website/K3_Site/.npm-cache/_npx/1415fee72ff6294b/node_modules/create-vite/template-svelte/.vscode'
+60 silly tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/Users/anubalaji/Website/K3_Site/.npm-cache/_npx/1415fee72ff6294b/node_modules/create-vite/template-svelte/.vscode' [Error: ENOENT: no such file or directory, lstat '/Users/anubalaji/Website/K3_Site/.npm-cache/_npx/1415fee72ff6294b/node_modules/create-vite/template-svelte/.vscode'] {
+60 silly tar   errno: -2,
+60 silly tar   code: 'ENOENT',
+60 silly tar   syscall: 'lstat',
+60 silly tar   path: '/Users/anubalaji/Website/K3_Site/.npm-cache/_npx/1415fee72ff6294b/node_modules/create-vite/template-svelte/.vscode',
+60 silly tar   entry: ReadEntry {
+60 silly tar     _events: [Object: null prototype] { end: [Function (anonymous)] },
+60 silly tar     _eventsCount: 1,
+60 silly tar     _maxListeners: undefined,
+60 silly tar     writable: false,
+60 silly tar     readable: true,
+60 silly tar     extended: null,
+60 silly tar     globalExtended: null,
+60 silly tar     header: Header {
+60 silly tar       cksumValid: true,
+60 silly tar       needPax: false,
+60 silly tar       nullBlock: false,
+60 silly tar       block: null,
+60 silly tar       path: 'package/template-svelte/.vscode/extensions.json',
+60 silly tar       mode: 420,
+60 silly tar       uid: 0,
+60 silly tar       gid: 0,
+60 silly tar       size: 50,
+60 silly tar       mtime: 1985-10-26T08:15:00.000Z,
+60 silly tar       cksum: 8436,
+60 silly tar       linkpath: '',
+60 silly tar       uname: '',
+60 silly tar       gname: '',
+60 silly tar       devmaj: 0,
+60 silly tar       devmin: 0,
+60 silly tar       atime: null,
+60 silly tar       ctime: null,
+60 silly tar       [Symbol(type)]: '0'
+60 silly tar     },
+60 silly tar     startBlockSize: 512,
+60 silly tar     blockRemain: 0,
+60 silly tar     remain: 0,
+60 silly tar     type: 'File',
+60 silly tar     meta: false,
+60 silly tar     ignore: false,
+60 silly tar     path: 'template-svelte/.vscode/extensions.json',
+60 silly tar     mode: 438,
+60 silly tar     uid: 0,
+60 silly tar     gid: 0,
+60 silly tar     uname: '',
+60 silly tar     gname: '',
+60 silly tar     size: 50,
+60 silly tar     mtime: 1985-10-26T08:15:00.000Z,
+60 silly tar     atime: null,
+60 silly tar     ctime: null,
+60 silly tar     linkpath: '',
+60 silly tar     absolute: '/Users/anubalaji/Website/K3_Site/.npm-cache/_npx/1415fee72ff6294b/node_modules/create-vite/template-svelte/.vscode/extensions.json',
+60 silly tar     [Symbol(kCapture)]: false,
+60 silly tar     [Symbol(flowing)]: false,
+60 silly tar     [Symbol(paused)]: true,
+60 silly tar     [Symbol(pipes)]: [],
+60 silly tar     [Symbol(buffer)]: [
+60 silly tar       <Buffer 7b 0a 20 20 22 72 65 63 6f 6d 6d 65 6e 64 61 74 69 6f 6e 73 22 3a 20 5b 22 73 76 65 6c 74 65 2e 73 76 65 6c 74 65 2d 76 73 63 6f 64 65 22 5d 0a 7d 0a>
+60 silly tar     ],
+60 silly tar     [Symbol(objectMode)]: false,
+60 silly tar     [Symbol(encoding)]: null,
+60 silly tar     [Symbol(async)]: false,
+60 silly tar     [Symbol(decoder)]: null,
+60 silly tar     [Symbol(EOF)]: true,
+60 silly tar     [Symbol(emittedEnd)]: false,
+60 silly tar     [Symbol(emittingEnd)]: false,
+60 silly tar     [Symbol(closed)]: false,
+60 silly tar     [Symbol(emittedError)]: null,
+60 silly tar     [Symbol(bufferLength)]: 50,
+60 silly tar     [Symbol(destroyed)]: false
+60 silly tar   },
+60 silly tar   cwd: '/Users/anubalaji/Website/K3_Site/.npm-cache/_npx/1415fee72ff6294b/node_modules/create-vite',
+60 silly tar   tarCode: 'TAR_ENTRY_ERROR'
+60 silly tar }
+61 warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/Users/anubalaji/Website/K3_Site/.npm-cache/_npx/1415fee72ff6294b/node_modules/create-vite/template-vue-ts/.vscode'
+62 silly tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/Users/anubalaji/Website/K3_Site/.npm-cache/_npx/1415fee72ff6294b/node_modules/create-vite/template-vue-ts/.vscode' [Error: ENOENT: no such file or directory, lstat '/Users/anubalaji/Website/K3_Site/.npm-cache/_npx/1415fee72ff6294b/node_modules/create-vite/template-vue-ts/.vscode'] {
+62 silly tar   errno: -2,
+62 silly tar   code: 'ENOENT',
+62 silly tar   syscall: 'lstat',
+62 silly tar   path: '/Users/anubalaji/Website/K3_Site/.npm-cache/_npx/1415fee72ff6294b/node_modules/create-vite/template-vue-ts/.vscode',
+62 silly tar   entry: ReadEntry {
+62 silly tar     _events: [Object: null prototype] { end: [Function (anonymous)] },
+62 silly tar     _eventsCount: 1,
+62 silly tar     _maxListeners: undefined,
+62 silly tar     writable: false,
+62 silly tar     readable: true,
+62 silly tar     extended: null,
+62 silly tar     globalExtended: null,
+62 silly tar     header: Header {
+62 silly tar       cksumValid: true,
+62 silly tar       needPax: false,
+62 silly tar       nullBlock: false,
+62 silly tar       block: null,
+62 silly tar       path: 'package/template-vue-ts/.vscode/extensions.json',
+62 silly tar       mode: 420,
+62 silly tar       uid: 0,
+62 silly tar       gid: 0,
+62 silly tar       size: 39,
+62 silly tar       mtime: 1985-10-26T08:15:00.000Z,
+62 silly tar       cksum: 8392,
+62 silly tar       linkpath: '',
+62 silly tar       uname: '',
+62 silly tar       gname: '',
+62 silly tar       devmaj: 0,
+62 silly tar       devmin: 0,
+62 silly tar       atime: null,
+62 silly tar       ctime: null,
+62 silly tar       [Symbol(type)]: '0'
+62 silly tar     },
+62 silly tar     startBlockSize: 512,
+62 silly tar     blockRemain: 0,
+62 silly tar     remain: 0,
+62 silly tar     type: 'File',
+62 silly tar     meta: false,
+62 silly tar     ignore: false,
+62 silly tar     path: 'template-vue-ts/.vscode/extensions.json',
+62 silly tar     mode: 438,
+62 silly tar     uid: 0,
+62 silly tar     gid: 0,
+62 silly tar     uname: '',
+62 silly tar     gname: '',
+62 silly tar     size: 39,
+62 silly tar     mtime: 1985-10-26T08:15:00.000Z,
+62 silly tar     atime: null,
+62 silly tar     ctime: null,
+62 silly tar     linkpath: '',
+62 silly tar     absolute: '/Users/anubalaji/Website/K3_Site/.npm-cache/_npx/1415fee72ff6294b/node_modules/create-vite/template-vue-ts/.vscode/extensions.json',
+62 silly tar     [Symbol(kCapture)]: false,
+62 silly tar     [Symbol(flowing)]: false,
+62 silly tar     [Symbol(paused)]: true,
+62 silly tar     [Symbol(pipes)]: [],
+62 silly tar     [Symbol(buffer)]: [
+62 silly tar       <Buffer 7b 0a 20 20 22 72 65 63 6f 6d 6d 65 6e 64 61 74 69 6f 6e 73 22 3a 20 5b 22 56 75 65 2e 76 6f 6c 61 72 22 5d 0a 7d 0a>
+62 silly tar     ],
+62 silly tar     [Symbol(objectMode)]: false,
+62 silly tar     [Symbol(encoding)]: null,
+62 silly tar     [Symbol(async)]: false,
+62 silly tar     [Symbol(decoder)]: null,
+62 silly tar     [Symbol(EOF)]: true,
+62 silly tar     [Symbol(emittedEnd)]: false,
+62 silly tar     [Symbol(emittingEnd)]: false,
+62 silly tar     [Symbol(closed)]: false,
+62 silly tar     [Symbol(emittedError)]: null,
+62 silly tar     [Symbol(bufferLength)]: 39,
+62 silly tar     [Symbol(destroyed)]: false
+62 silly tar   },
+62 silly tar   cwd: '/Users/anubalaji/Website/K3_Site/.npm-cache/_npx/1415fee72ff6294b/node_modules/create-vite',
+62 silly tar   tarCode: 'TAR_ENTRY_ERROR'
+62 silly tar }
+63 warn tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/Users/anubalaji/Website/K3_Site/.npm-cache/_npx/1415fee72ff6294b/node_modules/create-vite/template-vue/.vscode'
+64 silly tar TAR_ENTRY_ERROR ENOENT: no such file or directory, lstat '/Users/anubalaji/Website/K3_Site/.npm-cache/_npx/1415fee72ff6294b/node_modules/create-vite/template-vue/.vscode' [Error: ENOENT: no such file or directory, lstat '/Users/anubalaji/Website/K3_Site/.npm-cache/_npx/1415fee72ff6294b/node_modules/create-vite/template-vue/.vscode'] {
+64 silly tar   errno: -2,
+64 silly tar   code: 'ENOENT',
+64 silly tar   syscall: 'lstat',
+64 silly tar   path: '/Users/anubalaji/Website/K3_Site/.npm-cache/_npx/1415fee72ff6294b/node_modules/create-vite/template-vue/.vscode',
+64 silly tar   entry: ReadEntry {
+64 silly tar     _events: [Object: null prototype] { end: [Function (anonymous)] },
+64 silly tar     _eventsCount: 1,
+64 silly tar     _maxListeners: undefined,
+64 silly tar     writable: false,
+64 silly tar     readable: true,
+64 silly tar     extended: null,
+64 silly tar     globalExtended: null,
+64 silly tar     header: Header {
+64 silly tar       cksumValid: true,
+64 silly tar       needPax: false,
+64 silly tar       nullBlock: false,
+64 silly tar       block: null,
+64 silly tar       path: 'package/template-vue/.vscode/extensions.json',
+64 silly tar       mode: 420,
+64 silly tar       uid: 0,
+64 silly tar       gid: 0,
+64 silly tar       size: 39,
+64 silly tar       mtime: 1985-10-26T08:15:00.000Z,
+64 silly tar       cksum: 8116,
+64 silly tar       linkpath: '',
+64 silly tar       uname: '',
+64 silly tar       gname: '',
+64 silly tar       devmaj: 0,
+64 silly tar       devmin: 0,
+64 silly tar       atime: null,
+64 silly tar       ctime: null,
+64 silly tar       [Symbol(type)]: '0'
+64 silly tar     },
+64 silly tar     startBlockSize: 512,
+64 silly tar     blockRemain: 0,
+64 silly tar     remain: 0,
+64 silly tar     type: 'File',
+64 silly tar     meta: false,
+64 silly tar     ignore: false,
+64 silly tar     path: 'template-vue/.vscode/extensions.json',
+64 silly tar     mode: 438,
+64 silly tar     uid: 0,
+64 silly tar     gid: 0,
+64 silly tar     uname: '',
+64 silly tar     gname: '',
+64 silly tar     size: 39,
+64 silly tar     mtime: 1985-10-26T08:15:00.000Z,
+64 silly tar     atime: null,
+64 silly tar     ctime: null,
+64 silly tar     linkpath: '',
+64 silly tar     absolute: '/Users/anubalaji/Website/K3_Site/.npm-cache/_npx/1415fee72ff6294b/node_modules/create-vite/template-vue/.vscode/extensions.json',
+64 silly tar     [Symbol(kCapture)]: false,
+64 silly tar     [Symbol(flowing)]: false,
+64 silly tar     [Symbol(paused)]: true,
+64 silly tar     [Symbol(pipes)]: [],
+64 silly tar     [Symbol(buffer)]: [
+64 silly tar       <Buffer 7b 0a 20 20 22 72 65 63 6f 6d 6d 65 6e 64 61 74 69 6f 6e 73 22 3a 20 5b 22 56 75 65 2e 76 6f 6c 61 72 22 5d 0a 7d 0a>
+64 silly tar     ],
+64 silly tar     [Symbol(objectMode)]: false,
+64 silly tar     [Symbol(encoding)]: null,
+64 silly tar     [Symbol(async)]: false,
+64 silly tar     [Symbol(decoder)]: null,
+64 silly tar     [Symbol(EOF)]: true,
+64 silly tar     [Symbol(emittedEnd)]: false,
+64 silly tar     [Symbol(emittingEnd)]: false,
+64 silly tar     [Symbol(closed)]: false,
+64 silly tar     [Symbol(emittedError)]: null,
+64 silly tar     [Symbol(bufferLength)]: 39,
+64 silly tar     [Symbol(destroyed)]: false
+64 silly tar   },
+64 silly tar   cwd: '/Users/anubalaji/Website/K3_Site/.npm-cache/_npx/1415fee72ff6294b/node_modules/create-vite',
+64 silly tar   tarCode: 'TAR_ENTRY_ERROR'
+64 silly tar }
+65 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 138ms
+66 timing auditReport:getReport Completed in 138ms
+67 silly audit report {}
+68 timing auditReport:init Completed in 0ms
+69 timing reify:audit Completed in 139ms
+70 http fetch GET 200 https://registry.npmjs.org/create-vite/-/create-vite-8.1.0.tgz 150ms (cache miss)
+71 timing reifyNode:node_modules/create-vite Completed in 153ms
+72 timing reify:unpack Completed in 153ms
+73 timing reify:unretire Completed in 0ms
+74 timing build:queue Completed in 0ms
+75 timing build:link:node_modules/create-vite Completed in 1ms
+76 timing build:link Completed in 1ms
+77 timing build:deps Completed in 1ms
+78 timing build Completed in 1ms
+79 timing reify:build Completed in 2ms
+80 timing reify:trash Completed in 0ms
+81 timing reify:save Completed in 3ms
+82 timing reify Completed in 182ms
+83 timing command:create Completed in 736ms
+84 verbose exit 0
+85 timing npm Completed in 756ms
+86 info ok
